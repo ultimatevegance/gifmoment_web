@@ -1,0 +1,203 @@
+@font-face {
+    font-family: Bungee Shade;
+    src: url("Bungee-Shade.otf");
+}
+body{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  min-width: 1400px;
+  max-width: 1800px;
+  /*background-color: #fc461e;*/
+
+  }
+  /* header */
+.header{
+  background-color: #fc461e;
+  height: 8em;
+
+}
+.header-logo{
+  width: 230px;
+  margin-top: 20px;
+  margin-left: 40px;
+  float: left;
+}
+#logo{
+  width: 230px;
+}
+.header-nav{
+  width: 600px;
+  margin-left: 300px;
+  float: left;
+  padding-top: 3em;
+}
+.signbuttons{
+  width: 230px;
+  float: left;
+  padding-top: 3em;
+}
+.signup-button , .signin-button{
+  float: left;
+  background:#FFFFFF;
+  border-radius: 10;
+  color: #F6581D;
+  border-radius: 10px;
+
+}
+.signin-button{
+  margin-left: 10px;
+}
+  /* footer */
+.page-footer-nav{
+  text-align: center;
+  padding-top: 1.2em;
+}
+.page-footer-text{
+  font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+  text-align: center;
+  color: #7F85A0;
+  font-size: 1.2em;
+
+}
+  /* landing-app-intro */
+.landing-app-intro{
+  background-color: #fc461e;
+
+  height:40em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 6em;
+
+}
+.page-footer{
+  background-color: #323333;
+  height:10em;
+
+}
+.app-feature-i{
+  background-color: #323333;
+  height:900px;
+  background-image: url( Images/bggif.gif );
+  background-size:cover;;
+  background-position: center;
+
+}
+.app-feature-ii{
+  background-color: #6c6f70;
+  height:800px;
+  background-image: url(Images/12.gif);
+  background-size:cover;;
+  background-position: center;
+}
+.app-feature-iii{
+  background-color: #9015ea;
+  height:800px;
+  background-image: url(Images/130407.gif);
+  background-size:cover;;
+  background-position: center;
+}
+.downloads{
+  background-color: #fc461e;
+  height:400px;
+}
+.langing-app-intro-headers-logo{
+
+}
+
+.landing-app-intro-headers-title{
+font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+color: white;
+font-size: 40px;
+padding-top: 20px;
+}
+.landing-app-intro-paragrah{
+  font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+  color: white;
+  font-size: 26px;
+  padding-top: 30px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+  font-size: 1.2em;;
+  padding: 0.5em;
+}
+.landing-app-intro-phones{
+  width: 400px;
+  float: left;
+}
+.landing-app-intro-headers{
+  width: 540px;
+  float: right;
+  text-align: center;
+
+}
+.landing-app-intro-footer{
+  width: 540px;
+  float: right;
+  text-align: center;
+}
+.landing-app-intro-buttons{
+  width: 540px;
+
+}
+.landing-app-intro-buttons-ios {
+  padding-top: 20px;
+  float: left;
+  width: 250px;
+
+}
+.landing-app-intro-buttons-google{
+  padding-top: 20px;
+  margin-left: 20px;
+  float: left;
+  width: 250px;
+
+}
+#appleStore  {
+  width: 250px;
+
+
+}
+#googleplay{
+    width: 250px;
+}
+.feature-share,.feature-connect,.feature-fun{
+  font-family: Bungee Shade;
+  font-size: 3em;
+  text-align: center;
+  color:yellow;
+  padding-top: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
+
+}
+.feature-share{
+  color: red;
+
+
+}
+.feature-connect{
+  color: #84FACE;
+}
+.share-every{
+  font-family: Quicksand;
+  font-size: 3.5em;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+.social{
+  width: 600px;
+  height: 100px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.sina,.qq,.wechat,.qqzone{
+  width: 70px;
+  float: left;
+  padding: 30px;
+}
