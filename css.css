@@ -28,8 +28,8 @@ body{
   width: 230px;
 }
 .header-nav{
-  width: 600px;
-  margin-left: 300px;
+
+  margin-left: 200px;
   float: left;
   padding-top: 3em;
 }
@@ -37,14 +37,14 @@ body{
   width: 230px;
   float: left;
   padding-top: 3em;
+  margin-left: 150px;
 }
 .signup-button , .signin-button{
   float: left;
   background:#FFFFFF;
-  border-radius: 10;
+  
   color: #F6581D;
   border-radius: 10px;
-
 }
 .signin-button{
   margin-left: 10px;
