@@ -2,20 +2,37 @@
     font-family: Bungee Shade;
     src: url("Bungee-Shade.otf");
 }
+/*html{
+  min-width: 1070px;
+}*/
 body{
-  margin-left: 0px;
   margin-top: 0px;
-  margin-right: 0px;
   margin-bottom: 0px;
-  min-width: 1400px;
-  max-width: 1800px;
+  margin-left: auto;;
+  margin-right: auto;
+  width: inherit;
+
   /*background-color: #fc461e;*/
 
   }
+  .site-wrapper{
+    position: relative;
+    min-width: 1440px;
+    max-width: 1440px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+
+  }
+
   /* header */
 .header{
   background-color: #fc461e;
   height: 8em;
+  width:inherit;
 
 }
 .header-logo{
@@ -65,10 +82,11 @@ body{
 .landing-app-intro{
   background-color: #fc461e;
 
-  height:40em;
-  padding-left: 10em;
-  padding-right: 10em;
-  padding-top: 6em;
+  height:800px;
+  width: 960px;
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-top: 80px;
 
 }
 .page-footer{
@@ -188,16 +206,24 @@ a{
   font-size: 3.5em;
   color: white;
   text-align: center;
-  padding: 30px;
-}
+  padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 40px;}
 .social{
-  width: 600px;
-  height: 100px;
-  padding-left: 400px;
-  padding-right: 400px;
+
+
+  padding-left: 450px;
+  padding-right: 450px;
+  padding-top: 40px;
+  width: 550px;
+  display: block;
+  height: 130px
+
+
 }
 .sina,.qq,.wechat,.qqzone{
   width: 70px;
   float: left;
   padding: 30px;
+
 }
